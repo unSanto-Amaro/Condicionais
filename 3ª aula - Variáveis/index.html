@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Coloque as suas notas abaixo</h1>
+        <label for="">Nota 1</label>
+        <input id="N1"> <br>
+        <label for="">Nota 2</label>
+        <input id="N2"> <br>
+        <label for="">Nota 3</label>
+        <input id="N3"> <br>
+        <label for="">Nota 4</label>
+        <input id="N4"> <br>
+        <button onclick="media()">Gerar Média</button>
+        <h2 id="resultado"></h2>
+    </main>
+
+    <section>
+        <h1>Coloque um valor abaixo</h1>
+        <label for="">Numero</label>
+        <input id="ReceberNumero"> <br>
+        <button onclick="Par()">Numero Par</button>
+        <h1 id="ParOuImpar"></h1>
+    </section>
+
+    <article>
+        <h1>Digite o valor da sua velocidade</h1>
+        <input id = "ValorDaVelocidade" type="text">
+        <button id="calcularVelocidade" onclick="GerarMulta()">Multa</button>
+        <h2 id="resultadoDaVelocidade"></h2>
+    </article>
+
+    <script src="script.js"></script>
+    <script src="par.js"></script>
+    <script src="multa.js"></script>
+</body>
+</html>
